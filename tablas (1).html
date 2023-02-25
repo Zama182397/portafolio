@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table,th,td
+        {
+            border: 1xp solid blueviolet;
+        }
+        th,td
+        {
+            border: 1xp solid blueviolet;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body background="images.png"
+style="background-repeat: no-repeat; 
+background-size: 100%;
+background-attachment: fixed;">
+    <!--bgcolor="#D4F4FF" PARA COLOR DE FONDO-->
+    <!--th es para indicar columnas con títulos (en negritas) y td para texto normal-->
+    <!--tr es para indicar el número de filas-->
+    <h1>Tablas</h1>
+    <table>
+        <caption>Tablas en HTML</caption>
+    <thead>
+    <tbody> 
+    <tr>
+        <th>Título 1</th>
+        <th>Título 2</th>
+        <th colspan="2">Título 3</th>
+        <th>Título 4</th>
+    </tr>
+    </thead>
+    <tr>
+        <td rowspan="3">Celda 1</td>
+        <td>Celda 2</td>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+        <td>Celda 5</td>
+    </tr>
+    <tr>
+        <td>Celda 6</td>
+        <td>Celda 7</td>
+        <td>Celda 8</td>
+        <td>Celda 9</td>
+    </tr>
+    <tr>
+        <td>Celda 10</td>
+        <td>Celda 11</td>
+        <td>Celda 12</td>
+        <td>Celda 13</td>
+    </tr>
+    <tr>
+        <td>Celda 14</td>
+        <td>Celda 15</td>
+        <td>Celda 16</td>
+        <td>Celda 17</td>
+        <td>Celda 18</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>Celda 19</td>
+        <td>Celda 20</td>
+        <td>Celda 21</td>
+        <td>Celda 22</td>
+        <td>Celda 23</td>
+    </tr>
+    </tfoot>
+    </table>
+    <figure>
+        <img src="logo.jpeg" alt="Logo UPSLP"
+     style="width: 25%; float: left;"/>
+    </figure>
+    <fidgcaption>
+        Universidad Politécnica de San Luis Potosí
+    </fidgcaption>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3696.095409837662!2d-100.98644208530524!3d22.12233768541633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842a9f5412c6b56f%3A0xe1b3dea4c6aa1c03!2sUniversidad%20Polit%C3%A9cnica%20de%20San%20Luis%20Potos%C3%AD!5e0!3m2!1ses-419!2smx!4v1676904597877!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h3> Pagina de la Universidad </h3>
+    <a href="https://www.upslp.edu.mx/upslp/" target="poli">UPSLP</a>
+
+    <iframe  name="poli"  width="1000px"> </iframe>
+
+    <img src="logoo.jfif" alt="logo"  usemap="#mapa1" />
+    <map name= "mapa1">
+        <area shape="rect" coords="0,0,100,100" 
+        href="http://www.upslp.edu.mx">
+
+        <area shape="circle" coords="175,50,40" alt="parte1"
+    href="http://www.upslp.edu.mx">
+    </map>
+    
+    <!- inicio x,y, Final x,y->
+   
+</body>
+</html>
